@@ -70,5 +70,5 @@ Route::get('bs4-navbar', function () {
     return view('bs4-navbar');
 });
 
-Route::get('perkalian', 'App\Http\Controllers\DosenController@index');
-Route::get('biodata', 'App\Http\Controllers\DosenController@biodata');
+Route::get('perkalian', 'App\Http\Controllers\Dosen2Controller@index');
+Route::get('biodata', 'App\Http\Controllers\Dosen2Controller@biodata');
