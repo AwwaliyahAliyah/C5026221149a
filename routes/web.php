@@ -70,5 +70,23 @@ Route::get('bs4-navbar', function () {
     return view('bs4-navbar');
 });
 
+// 20231:52100:ES234420:C
 Route::get('perkalian', 'App\Http\Controllers\Dosen2Controller@index');
 Route::get('biodata', 'App\Http\Controllers\Dosen2Controller@biodata');
+Route::get('showjam/{jam}', 'App\Http\Controllers\Dosen2Controller@showtime');
+
+Route::get('formulir', 'App\Http\Controllers\Dosen2Controller@formulir');
+Route::post('/formulir/proses', 'App\Http\Controllers\Dosen2Controller@proses');
+
+Route::get('/blog', function () {
+    return view('home');
+});
+
+Route::get('/blog/tentang', function () {
+    return view('tentang');
+});
+
+Route::get('/blog/kontak', function () {
+    return view('kontak');
+});
+
