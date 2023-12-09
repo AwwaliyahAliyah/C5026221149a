@@ -30,8 +30,8 @@
             </a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="/pegawai">Pegawai</a>
-              <a class="dropdown-item" href="#">Link 2</a>
               <a class="dropdown-item" href="/keranjangbelanja">Keranjang Belanja</a>
+              <a class="dropdown-item" href="/dvd">DVD</a>
             </div>
           </li>
         </ul>

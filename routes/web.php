@@ -106,3 +106,10 @@ Route::get('/keranjangbelanja','App\Http\Controllers\KeranjangBelanjaController@
 Route::get('/keranjangbelanja/beli','App\Http\Controllers\KeranjangBelanjaController@beli');
 Route::post('/keranjangbelanja/simpan','App\Http\Controllers\KeranjangBelanjaController@simpan');
 Route::get('/keranjangbelanja/batal/{id}','App\Http\Controllers\KeranjangBelanjaController@batal');
+
+Route::get('/dvd','App\Http\Controllers\DVDController@homepagedvd');
+Route::get('/dvd/tambah','App\Http\Controllers\DVDController@tambahdvd');
+Route::post('/dvd/simpan','App\Http\Controllers\DVDController@simpandvd');
+Route::get('/dvd/edit/{id}','App\Http\Controllers\DVDController@ubahdvd');
+Route::post('/dvd/update','App\Http\Controllers\DVDController@updatedvd');
+Route::get('/dvd/hapus/{id}','App\Http\Controllers\DVDController@hapusdvd');
