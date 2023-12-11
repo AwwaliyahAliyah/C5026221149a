@@ -34,6 +34,11 @@
               <a class="dropdown-item" href="/dvd">DVD</a>
             </div>
           </li>
+
+          <!-- Links -->
+          <li class="nav-item">
+            <a class="nav-link" href="/chat">CHAT</a>
+          </li>
         </ul>
       </nav>
 <div class="container">

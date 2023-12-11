@@ -113,3 +113,5 @@ Route::post('/dvd/simpan','App\Http\Controllers\DVDController@simpandvd');
 Route::get('/dvd/edit/{id}','App\Http\Controllers\DVDController@ubahdvd');
 Route::post('/dvd/update','App\Http\Controllers\DVDController@updatedvd');
 Route::get('/dvd/hapus/{id}','App\Http\Controllers\DVDController@hapusdvd');
+
+Route::get('/chat','App\Http\Controllers\ChatController@halamanchat');
